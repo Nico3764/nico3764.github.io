@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
     <script src="https://kit.fontawesome.com/7ec49247d0.js" crossorigin="anonymous"></script>
+
 </head>
   <body>
     <!--Header-->
@@ -22,25 +23,7 @@
       </div>
     </header>
     <!--NAV-->
-    <nav class="container mt-4 ">
-      <div class="row">
-        <div class="col">
-          <button class="button-nav">Datos Personales</button>
-        </div>
-        <div class="col">
-          <button class="button-nav">Perfil profesional</button>
-        </div>
-        <div class="col">
-          <button class="button-nav">Experiencia laboral</button>
-        </div>
-        <div class="col">
-          <button class="button-nav">Formación académica</button>
-        </div>
-        <div class="col">
-          <button class="button-nav-select">Habilidades</button>
-        </div>
-      </div>      
-    </nav>
+    <nav id="nav" class="container mt-4 "></nav>
 <!--SECTION Datos Personales
 
  <section class="container mt-4 animate-zoom">
@@ -235,73 +218,7 @@
 
 <!--SECTION Habilidades-->
 
-<section class="container mt-4 animate-zoom">
-  <div class="row">
-    <div class="col">          
-        <div class="row">
-            <div class="col-8">                                        
-                <p>
-                  <i class="fa-solid fa-server mx-3"></i>Configuración de Servidores, mantenimiento, monitoreo, seguridad y virtualización.<br>
-                  <i class="fa-solid fa-server mx-3"></i>Cloud Computing, bases de datos.<br>
-                  <i class="fa-solid fa-language mx-3"></i>Idiomas: Español e ingles avanzado.<br>
-                
-                  <table class="table table-striped">
-                    <tr>
-                      <th colspan="4" style="border-radius: 20px 20px 0% 0%">Lenguajes de Programación/framenwork's:</th>                      
-                    </tr>
-                    <tr>
-                      <td><i class="fa-brands fa-js"></i> Java Script</td>
-                      <td><i class="fa-brands fa-php"></i> PHP</td>
-                      <td><i class="fa-brands fa-python"></i> Python</td>
-                      <td><i class="fa-brands fa-java"></i> Java</td>                  
-                    </tr>
-                    <tr>
-                      <td><i class="fa-brands fa-bootstrap"></i> Bootstrap</td>
-                      <td><i class="fa-brands fa-react"></i> React</td>
-                      <td><i class="fa-brands fa-angular"></i> Angular</td>
-                      <td><i class="fa-brands fa-node-js"></i> Node JS</td>                       
-                    </tr>
-                    <tr>
-                      <td><i class="fa-brands fa-html5"></i>HTML5</td>
-                      <td><i class="fa-brands fa-css3-alt"></i>CSS</td>
-                      <td><i class="fa-solid fa-hashtag"></i> C#</td>
-                      <td><i class="fa-brands fa-linux"></i> BASH scripting</td>                       
-                    </tr>
-                    <tr>
-                      <td><i class="fa-solid fa-database"></i>MySql/Postgree</td>
-                      <td><i class="fa-regular fa-gem"></i>Ruby</td>
-                      <td><i class="fa-solid fa-calculator"></i> MathLab</td>
-                      <td><i class="fa-solid fa-puzzle-piece"></i>Assembby</td>                       
-                    </tr>
-                  </table>
-                  
-                </p>                                        
-            </div>       
-    <div class="col-4">
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="opacity: 0.5;">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img height="200px" style="object-fit: contain;" src="./img/Habilidades_1.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img height="200px" style="object-fit: contain;" src="./img/Habilidades_2.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img height="200px" style="object-fit: contain;"  src="./img/Habilidades_3.jpeg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>       
-  </div>      
-</section>
+<section id="section" class="container mt-4 animate-zoom"></section>
 
 <!--FOOTER-->
    <footer class="footerStyle">
@@ -326,6 +243,8 @@
            </div>
          </div>
     </footer>
+    
+    <script type="text/javascript" src="./main/main.js"></script>  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
