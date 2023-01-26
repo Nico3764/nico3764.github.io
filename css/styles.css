@@ -1,6 +1,11 @@
 body {
 	background: rgb(84,201,50);
 	background: linear-gradient(90deg, rgba(84,201,50,1) 0%, rgba(9,121,111,1) 23%, rgba(255,255,255,1) 93%); 
+
+	font-family: 'roboto', serif;
+}
+td i{
+	padding: 0%;
 }
 .opaque {
 	opacity: 0.4;
@@ -14,13 +19,15 @@ body {
 	
 	background-color: grey;
 	box-shadow: 2px 2px #405203;
-	width: 95%;
-	height: 30px;
+	width: 100%;
 	
 	border-radius: 6px;
 	border-color: #000000;
 	
-	opacity: 0.2;
+	opacity: 0.3;
+	padding-left: 0%;
+	padding-right: 0%;
+	margin: 0%;
 }
 .button-nav-select
 {
@@ -31,8 +38,8 @@ body {
 	
 	background-color: grey;
 	box-shadow: 2px 2px #405203;
-	width: 95%;
-	height: 30px;
+	width: 100%;
+	
 	
 	border-radius: 6px;
 	border-color: #000000;
@@ -43,9 +50,8 @@ body {
 
 .animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
 
-.rowDatosPersonales{
-	text-align:center; 
-	border-radius: 0%;
+.rowDatosPersonales{ 
+	
 }
 
 .footerStyle{
@@ -59,14 +65,21 @@ body {
 	border-radius: 6px 6px 6px 6px;
 }
 
-
-
-
-.fondo {         
-	background: rgb(84,201,50);
-	background: linear-gradient(90deg, rgba(84,201,50,1) 0%, rgba(9,121,111,1) 23%, rgba(255,255,255,1) 93%); 
+.carouselTuning {
+	opacity: 0.5;
 }
-.beta {
-  color: $yellow-300;
-  background-color: $indigo-900;
+
+@media screen and (max-width: 767px) {
+	div.carouselTuning {
+	  display: none;
+	}
+}
+#thStart{
+	border-radius: 20px 0% 0% 0%;
+}
+#thEnd{
+	border-radius: 0% 20px 0% 0%;
+}
+#thHabilidades{ 
+	border-radius: 20px 20px 0% 0%;
 }

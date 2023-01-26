@@ -5,17 +5,17 @@ let viewSection = (sectionType) =>
     document.getElementById('habilidades').className='button-nav-select';
     document.getElementById('section').innerHTML=`
             <div class="row">
-            <div class="col">          
+            <div class="col-sm-12">          
                 <div class="row">
-                    <div class="col-8">                                        
+                    <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">                                        
                         <p>
                         <i class="fa-solid fa-server mx-3"></i>Configuración de Servidores, mantenimiento, monitoreo, seguridad y virtualización.<br>
                         <i class="fa-solid fa-server mx-3"></i>Cloud Computing, bases de datos.<br>
                         <i class="fa-solid fa-language mx-3"></i>Idiomas: Español e ingles avanzado.<br>
                         
-                        <table class="table table-striped">
+                        <table class="table table-striped table-sm">
                             <tr>
-                            <th colspan="4" style="border-radius: 20px 20px 0% 0%">Lenguajes de Programación/framenwork's:</th>                      
+                            <th colspan="4" id="thHabilidades">Lenguajes de Programación/framenwork's:</th>                      
                             </tr>
                             <tr>
                             <td><i class="fa-brands fa-js"></i> Java Script</td>
@@ -45,8 +45,8 @@ let viewSection = (sectionType) =>
                         
                         </p>                                        
                     </div>       
-            <div class="col-4">
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="opacity: 0.5;">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <div id="carouselExampleAutoplaying" class="carousel slide carouselTuning" data-bs-ride="carousel">
                 <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img height="200px" style="object-fit: contain;" src="./img/Habilidades_1.jpeg" class="d-block w-100" alt="...">
@@ -75,7 +75,7 @@ let viewSection = (sectionType) =>
         <div class="row">
         <div class="col">          
             <div class="row">
-                <div class="col-8">                                        
+                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">                                         
                     <p>
                     <i class="fa-solid fa-laptop mx-3"></i>Ticmas Academy, Curso de programación con metodología fullstack.<br>
                     <i class="fa-solid fa-laptop mx-3"></i>Ingeniero informático, Universidad Nacional de Mar del Plata.<br>
@@ -85,28 +85,27 @@ let viewSection = (sectionType) =>
                     <i class="fa-solid fa-laptop mx-3"></i>AWS Academy, AWS Certified Developer - Associate<br>
                     </p>                                        
                 </div>       
-        <div class="col-4">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="opacity: 0.5;">
-            <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img height="200px" style="object-fit: contain;" src="https://static.wixstatic.com/media/77d9b2_120987c7a5e34959948d74bdb5917037~mv2.png/v1/fill/w_196,h_48,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Logo_master_fondo_transp.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img height="200px" style="object-fit: contain;" src="./img/Formacion_academical_1.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img height="200px" style="object-fit: contain;"  src="./img/Experiencia_laboral_3.png" class="d-block w-100" alt="...">
-            </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+              <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                <div id="carouselExampleAutoplaying" class="carousel slide carouselTuning" data-bs-ride="carousel"><div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img height="200px" style="object-fit: contain;" src="https://static.wixstatic.com/media/77d9b2_120987c7a5e34959948d74bdb5917037~mv2.png/v1/fill/w_196,h_48,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Logo_master_fondo_transp.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                      <img height="200px" style="object-fit: contain;" src="./img/Formacion_academical_1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                      <img height="200px" style="object-fit: contain;"  src="./img/Experiencia_laboral_3.png" class="d-block w-100" alt="...">
+                  </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
         </div>       
     </div>`;
    } else if (sectionType== 'experienciaLaboral'){
@@ -115,7 +114,7 @@ let viewSection = (sectionType) =>
     <div class="row">
         <div class="col">          
             <div class="row">
-                <div class="col-8">                                        
+                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">                                         
                     <p>
                       <i class="fa-brands fa-amazon mx-3"></i>Amazon Web Services, desarrollador web señor. 5 años de experiencia.<br>
                       <i class="fa-brands fa-salesforce mx-3"></i>Salesforce Developer, desarrollador web señor. 2 años de experiencia.<br>
@@ -126,28 +125,27 @@ let viewSection = (sectionType) =>
                       <i class="fa-solid fa-phone-volume mx-3"></i>AT&T Technology and Innovation, acesor tecnológico. 2 años de experiencia<br>
                     </p>                                        
                 </div>       
-        <div class="col-4">
-          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img height="200px" style="object-fit: contain;"  src="./img/Experiencia_laboral_1.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img height="200px" style="object-fit: contain;"  src="./img/Experiencia_laboral_2.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img height="200px" style="object-fit: contain;"  src="./img/Experiencia_laboral_3.png" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                  <div id="carouselExampleAutoplaying" class="carousel slide carouselTuning" data-bs-ride="carousel"><div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img height="200px" style="object-fit: contain;"  src="./img/Experiencia_laboral_1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img height="200px" style="object-fit: contain;"  src="./img/Experiencia_laboral_2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img height="200px" style="object-fit: contain;"  src="./img/Experiencia_laboral_3.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
         </div>       
     </div>`;
    } else if (sectionType== 'perfilProfesional'){
@@ -156,7 +154,7 @@ let viewSection = (sectionType) =>
       <div class="row">
         <div class="col">          
             <div class="row">
-                <div class="col-8">                                        
+              <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">                                         
                     <p><small>
                       Mi perfil profesional se puede describir como Full Stack Web Developer o desarrollador Full Stack, con conocimiento de redes y seguridad informática. 
                       Especializado en muchas áreas, desde front end hasta back end. 
@@ -175,28 +173,27 @@ let viewSection = (sectionType) =>
                       Desarrollo Web Full Stack Bootcamp.
                     </small></p>                                        
                 </div>       
-        <div class="col-4">
-          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img height="200px" style="object-fit: contain;"  src="./img/Perfil_profecional_1.jpeg" class="d-block w-100" alt="...">
+              <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                <div id="carouselExampleAutoplaying" class="carousel slide carouselTuning" data-bs-ride="carousel"><div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img height="200px" style="object-fit: contain;"  src="./img/Perfil_profecional_1.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img height="200px" style="object-fit: contain;"  src="./img/Perfil_profecional_2.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img height="200px" style="object-fit: contain;"   src="./img/Perfil_profecional_3.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
-              <div class="carousel-item">
-                <img height="200px" style="object-fit: contain;"  src="./img/Perfil_profecional_2.jpeg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img height="200px" style="object-fit: contain;"   src="./img/Perfil_profecional_3.jpeg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
         </div>       
       </div>`;
    } else if (sectionType== 'datosPersonales') {
@@ -205,11 +202,11 @@ let viewSection = (sectionType) =>
     <div class="row">
            <div class="col">          
                <div class="row">
-                   <div class="col-8">                                        
-                       <table class="table table-striped">
+                  <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">                                         
+                       <table class="table table-striped table-sm">
                            <tr>
-                               <th class="rowDatosPersonales" style="border-radius: 20px 0% 0% 0%">NOMBRE: </th>
-                               <td class="rowDatosPersonales" style="border-radius: 0% 20px 0% 0%">Alberto Hernández Hernández</td>
+                               <th id="thStart" class="rowDatosPersonales">Nombre: </th>
+                               <td id="thEnd" class="rowDatosPersonales">Alberto Hernández Hernández</td>
                            </tr>
                            <tr>
                                <th class="rowDatosPersonales">Correo electrónico: </th>
@@ -229,29 +226,28 @@ let viewSection = (sectionType) =>
                            </tr>
                        </table>                                            
                    </div>       
-           <div class="col-4">
-             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-               <div class="carousel-inner">
-                 <div class="carousel-item active">
-                   <img height="200px" style="object-fit: contain;" src="./img/Datos_personales_1.jpeg" class="d-block w-100" alt="...">
-                 </div>
-                 <div class="carousel-item">
-                   <img height="200px" style="object-fit: contain;" src="./img/Datos_personales_2.jpeg" class="d-block w-100" alt="...">
-                 </div>
-                 <div class="carousel-item">
-                   <img height="200px" style="object-fit: contain;"  src="./img/Datos_personales_3.jpeg" class="d-block w-100" alt="...">
-                 </div>
-               </div>
-               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                 <span class="visually-hidden">Previous</span>
-               </button>
-               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                 <span class="visually-hidden">Next</span>
-               </button>
-             </div>
-           </div>       
+                  <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                    <div id="carouselExampleAutoplaying" class="carousel slide carouselTuning" data-bs-ride="carousel"> <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img height="200px" style="object-fit: contain;" src="./img/Datos_personales_1.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img height="200px" style="object-fit: contain;" src="./img/Datos_personales_2.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img height="200px" style="object-fit: contain;"  src="./img/Datos_personales_3.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>       
          </div>`;
    } else {
     console.log("Error en sectionType");
@@ -261,20 +257,20 @@ let viewSection = (sectionType) =>
 let viewNav =() =>
 {
     document.getElementById('nav').innerHTML= `
-    <div class="row">
-        <div class="col">
+    <div class="row justify-content-evenly">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-2 col-xxl-2">
             <button id="datosPersonales" class="button-nav">Datos Personales</button>
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-2 col-xxl-2">
             <button id="perfilProfesional" class="button-nav">Perfil profesional</button>
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-2 col-xxl-2">
             <button id="experienciaLaboral" class="button-nav">Experiencia laboral</button>
         </div>
-        <div class="col">
-            <button id="formacionAcademica" class="button-nav">Formación académica</button>
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-2 col-xxl-2">
+            <button id="formacionAcademica" class="button-nav">Formación</button>
         </div>
-        <div class="col">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-2 col-xxl-2">
             <button id="habilidades" class="button-nav">Habilidades</button>
         </div>
     </div> `;
