@@ -15,7 +15,7 @@ let viewSection = (sectionType) =>
                         
                         <table class="table table-striped table-sm">
                             <tr>
-                            <th colspan="4" id="thHabilidades">Lenguajes de Programación/framenwork's:</th>                      
+                            <th colspan="4" class="rowTopBorder">Lenguajes de Programación/framenwork's:</th>                      
                             </tr>
                             <tr>
                             <td><i class="fa-brands fa-js"></i> Java Script</td>
@@ -75,15 +75,33 @@ let viewSection = (sectionType) =>
         <div class="row">
         <div class="col">          
             <div class="row">
-                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">                                         
-                    <p>
-                    <i class="fa-solid fa-laptop mx-3"></i>Ticmas Academy, Curso de programación con metodología fullstack.<br>
-                    <i class="fa-solid fa-laptop mx-3"></i>Ingeniero informático, Universidad Nacional de Mar del Plata.<br>
-                    <i class="fa-solid fa-ethernet mx-3"></i>Cisco, CCNA, CCNP Enterprise<br>
-                    <i class="fa-brands fa-redhat mx-3"></i>Linux Redhat Certified System Administrator, Udemy<br>
-                    <i class="fa-brands fa-linux mx-3"></i>Linux Professional Institute, LPIC-essentials, LPIC-1, LPIC-2 y LPIC-3<br>
-                    <i class="fa-solid fa-laptop mx-3"></i>AWS Academy, AWS Certified Developer - Associate<br>
-                    </p>                                        
+                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">    
+                    <table class="table table-striped table-sm">
+                    <tr>
+                      <td class="thStart"><i class="fa-solid fa-laptop"></i></td>
+                      <td class="thEnd">Ticmas Academy, Curso de programación con metodología fullstack.</td>
+                    </tr>
+                    <tr>
+                      <td><i class="fa-solid fa-laptop"></i></i></td>
+                      <td>Ingeniero informático, Universidad Nacional de Mar del Plata.</td>
+                    </tr>
+                    <tr>
+                      <td><i class="fa-solid fa-ethernet"></i></td>
+                      <td>Cisco, CCNA, CCNP Enterprise</td>
+                    </tr>
+                    <tr>
+                      <td><i class="fa-brands fa-redhat"></i></td>
+                      <td>Linux Redhat Certified System Administrator, Udemy</td>
+                    </tr> 
+                    <tr>
+                      <td><i class="fa-brands fa-linux"></i></td>
+                      <td>Linux Professional Institute, LPIC-essentials, LPIC-1, LPIC-2 y LPIC-3</td>
+                    </tr>
+                    <tr>
+                      <td><i class="fa-solid fa-laptop"></i></td>
+                      <td>AWS Academy, AWS Certified Developer - Associate</td>
+                    </tr>                                              
+                  </table>                                        
                 </div>       
               <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                 <div id="carouselExampleAutoplaying" class="carousel slide carouselTuning" data-bs-ride="carousel"><div class="carousel-inner">
@@ -114,16 +132,37 @@ let viewSection = (sectionType) =>
     <div class="row">
         <div class="col">          
             <div class="row">
-                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">                                         
-                    <p>
-                      <i class="fa-brands fa-amazon mx-3"></i>Amazon Web Services, desarrollador web señor. 5 años de experiencia.<br>
-                      <i class="fa-brands fa-salesforce mx-3"></i>Salesforce Developer, desarrollador web señor. 2 años de experiencia.<br>
-                      <i class="fa-brands fa-google mx-3"></i>Google Cloud Developer, desarrollador web señor. 2 años de experiencia.<br>
-                      <i class="fa-brands fa-redhat mx-3"></i>Red Hat Developer for the software and tutorials to develop hybrid cloud applications using Kubernetes, microservices, serverless and Linux. 5 años de experiencia<br>
-                      <i class="fa-solid fa-ethernet mx-3"></i>Cisco: Networking, Cloud, and Cybersecurity Solutions. 8 años de experiencia.<br>
-                      <i class="fa-brands fa-linux mx-3"></i>Linux Kernel Development details the design and implementation of the Linux kernel. 8 años de experiencia.<br>
-                      <i class="fa-solid fa-phone-volume mx-3"></i>AT&T Technology and Innovation, acesor tecnológico. 2 años de experiencia<br>
-                    </p>                                        
+                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
+                      <table class="table table-striped table-sm">
+                        <tr>
+                          <td class="thStart"><i class="fa-brands fa-amazon"></i></td>
+                          <td class="thEnd">Amazon Web Services, desarrollador web señor. 5 años de experiencia</td>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-brands fa-salesforce"></i></td>
+                          <td>Salesforce Developer, desarrollador web señor. 2 años de experiencia.</td>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-brands fa-google"></i></td>
+                          <td>Google Cloud Developer, desarrollador web señor. 2 años de experiencia.</td>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-brands fa-redhat"></i></td>
+                          <td>Red Hat Developer for the software and tutorials to develop hybrid cloud applications using Kubernetes, microservices, serverless and Linux. 5 años de experiencia                   </td>
+                        </tr> 
+                        <tr>
+                          <td><i class="fa-solid fa-ethernet"></i></td>
+                          <td>Cisco: Networking, Cloud, and Cybersecurity Solutions. 8 años de experiencia.</td>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-brands fa-linux"></i></td>
+                          <td>Linux Kernel Development details the design and implementation of the Linux kernel. 8 años de experiencia.</td>
+                        </tr>
+                        <tr>
+                          <td><i class="fa-solid fa-phone-volume"></i></td>
+                          <td>AT&T Technology and Innovation, acesor tecnológico. 2 años de experiencia</td>
+                        </tr>                            
+                      </table>                                   
                 </div>       
                 <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                   <div id="carouselExampleAutoplaying" class="carousel slide carouselTuning" data-bs-ride="carousel"><div class="carousel-inner">
@@ -205,8 +244,8 @@ let viewSection = (sectionType) =>
                   <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">                                         
                        <table class="table table-striped table-sm">
                            <tr>
-                               <th id="thStart" class="rowDatosPersonales">Nombre: </th>
-                               <td id="thEnd" class="rowDatosPersonales">Alberto Hernández Hernández</td>
+                               <th class="rowDatosPersonales thStart">Nombre: </th>
+                               <td class="rowDatosPersonales thEnd">Alberto Hernández Hernández</td>
                            </tr>
                            <tr>
                                <th class="rowDatosPersonales">Correo electrónico: </th>

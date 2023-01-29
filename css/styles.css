@@ -50,9 +50,6 @@ td i{
 
 .animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
 
-.rowDatosPersonales{ 
-	
-}
 
 .footerStyle{
 
@@ -74,12 +71,12 @@ td i{
 	  display: none;
 	}
 }
-#thStart{
+.thStart{
 	border-radius: 20px 0% 0% 0%;
 }
-#thEnd{
+.thEnd{
 	border-radius: 0% 20px 0% 0%;
 }
-#thHabilidades{ 
+.rowTopBorder{ 
 	border-radius: 20px 20px 0% 0%;
 }
