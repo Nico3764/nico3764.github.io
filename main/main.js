@@ -49,13 +49,13 @@ let viewSection = (sectionType) =>
             <div id="carouselExampleAutoplaying" class="carousel slide carouselTuning" data-bs-ride="carousel">
                 <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img height="200px" style="object-fit: contain;" src="./img/Habilidades_1.jpeg" class="d-block w-100" alt="...">
+                    <img height="200px" style="object-fit: contain;" src="./img/Habilidades_1.jpeg" class="d-block w-100" alt="Imagen ilustrativa">
                 </div>
                 <div class="carousel-item">
-                    <img height="200px" style="object-fit: contain;" src="./img/Habilidades_2.png" class="d-block w-100" alt="...">
+                    <img height="200px" style="object-fit: contain;" src="./img/Habilidades_2.png" class="d-block w-100" alt="Imagen ilustrativa">
                 </div>
                 <div class="carousel-item">
-                    <img height="200px" style="object-fit: contain;"  src="./img/Habilidades_3.jpeg" class="d-block w-100" alt="...">
+                    <img height="200px" style="object-fit: contain;"  src="./img/Habilidades_3.jpeg" class="d-block w-100" alt="Imagen ilustrativa">
                 </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -106,13 +106,13 @@ let viewSection = (sectionType) =>
               <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                 <div id="carouselExampleAutoplaying" class="carousel slide carouselTuning" data-bs-ride="carousel"><div class="carousel-inner">
                   <div class="carousel-item active">
-                      <img height="200px" style="object-fit: contain;" src="https://static.wixstatic.com/media/77d9b2_120987c7a5e34959948d74bdb5917037~mv2.png/v1/fill/w_196,h_48,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Logo_master_fondo_transp.png" class="d-block w-100" alt="...">
+                      <img height="200px" style="object-fit: contain;" src="https://static.wixstatic.com/media/77d9b2_120987c7a5e34959948d74bdb5917037~mv2.png/v1/fill/w_196,h_48,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Logo_master_fondo_transp.png" class="d-block w-100" alt="Imagen ilustrativa">
                   </div>
                   <div class="carousel-item">
-                      <img height="200px" style="object-fit: contain;" src="./img/Formacion_academical_1.png" class="d-block w-100" alt="...">
+                      <img height="200px" style="object-fit: contain;" src="./img/Formacion_academical_1.png" class="d-block w-100" alt="Imagen ilustrativa">
                   </div>
                   <div class="carousel-item">
-                      <img height="200px" style="object-fit: contain;"  src="./img/Experiencia_laboral_3.png" class="d-block w-100" alt="...">
+                      <img height="200px" style="object-fit: contain;"  src="./img/Experiencia_laboral_3.png" class="d-block w-100" alt="Imagen ilustrativa">
                   </div>
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -167,13 +167,13 @@ let viewSection = (sectionType) =>
                 <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                   <div id="carouselExampleAutoplaying" class="carousel slide carouselTuning" data-bs-ride="carousel"><div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img height="200px" style="object-fit: contain;"  src="./img/Experiencia_laboral_1.png" class="d-block w-100" alt="...">
+                      <img height="200px" style="object-fit: contain;"  src="./img/Experiencia_laboral_1.png" class="d-block w-100" alt="Imagen ilustrativa">
                     </div>
                     <div class="carousel-item">
-                      <img height="200px" style="object-fit: contain;"  src="./img/Experiencia_laboral_2.png" class="d-block w-100" alt="...">
+                      <img height="200px" style="object-fit: contain;"  src="./img/Experiencia_laboral_2.png" class="d-block w-100" alt="Imagen ilustrativa">
                     </div>
                     <div class="carousel-item">
-                      <img height="200px" style="object-fit: contain;"  src="./img/Experiencia_laboral_3.png" class="d-block w-100" alt="...">
+                      <img height="200px" style="object-fit: contain;"  src="./img/Experiencia_laboral_3.png" class="d-block w-100" alt="Imagen ilustrativa">
                     </div>
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -215,13 +215,13 @@ let viewSection = (sectionType) =>
               <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                 <div id="carouselExampleAutoplaying" class="carousel slide carouselTuning" data-bs-ride="carousel"><div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img height="200px" style="object-fit: contain;"  src="./img/Perfil_profecional_1.jpeg" class="d-block w-100" alt="...">
+                    <img height="200px" style="object-fit: contain;"  src="./img/Perfil_profecional_1.jpeg" class="d-block w-100" alt="Imagen ilustrativa">
                   </div>
                   <div class="carousel-item">
-                    <img height="200px" style="object-fit: contain;"  src="./img/Perfil_profecional_2.jpeg" class="d-block w-100" alt="...">
+                    <img height="200px" style="object-fit: contain;"  src="./img/Perfil_profecional_2.jpeg" class="d-block w-100" alt="Imagen ilustrativa">
                   </div>
                   <div class="carousel-item">
-                    <img height="200px" style="object-fit: contain;"   src="./img/Perfil_profecional_3.jpeg" class="d-block w-100" alt="...">
+                    <img height="200px" style="object-fit: contain;"   src="./img/Perfil_profecional_3.jpeg" class="d-block w-100" alt="Imagen ilustrativa">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -268,13 +268,13 @@ let viewSection = (sectionType) =>
                   <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                     <div id="carouselExampleAutoplaying" class="carousel slide carouselTuning" data-bs-ride="carousel"> <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img height="200px" style="object-fit: contain;" src="./img/Datos_personales_1.jpeg" class="d-block w-100" alt="...">
+                        <img height="200px" style="object-fit: contain;" src="./img/Datos_personales_1.jpeg" class="d-block w-100" alt="Imagen ilustrativa">
                       </div>
                       <div class="carousel-item">
-                        <img height="200px" style="object-fit: contain;" src="./img/Datos_personales_2.jpeg" class="d-block w-100" alt="...">
+                        <img height="200px" style="object-fit: contain;" src="./img/Datos_personales_2.jpeg" class="d-block w-100" alt="Imagen ilustrativa">
                       </div>
                       <div class="carousel-item">
-                        <img height="200px" style="object-fit: contain;"  src="./img/Datos_personales_3.jpeg" class="d-block w-100" alt="...">
+                        <img height="200px" style="object-fit: contain;"  src="./img/Datos_personales_3.jpeg" class="d-block w-100" alt="Imagen ilustrativa">
                       </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
