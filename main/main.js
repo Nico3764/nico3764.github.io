@@ -245,19 +245,19 @@ let viewSection = (sectionType) =>
                        <table class="table table-striped table-sm">
                            <tr>
                                <th class="rowDatosPersonales thStart">Nombre: </th>
-                               <td class="rowDatosPersonales thEnd">Alberto Hernández Hernández</td>
+                               <td class="rowDatosPersonales thEnd">Alejandro Perez</td>
                            </tr>
                            <tr>
                                <th class="rowDatosPersonales">Correo electrónico: </th>
-                               <td class="rowDatosPersonales">alberto @tucorreo.com</td>
+                               <td class="rowDatosPersonales">alejandroperez@tucorreo.com</td>
                            </tr>
                            <tr>
                                <th class="rowDatosPersonales">Fecha de nacimiento: </th>
-                               <td class="rowDatosPersonales">25 de octubre de 1992</td>
+                               <td class="rowDatosPersonales">25 de octubre de 1987</td>
                            </tr>
                            <tr>
                                <th class="rowDatosPersonales">Dirección: </th>
-                               <td class="rowDatosPersonales">Calle Sur, 18, Colonia Los Olmos, Ciudad de México, 01234</td>
+                               <td class="rowDatosPersonales">Calle 20, nro 4022, Mar del Plata, Buenos Aires, Argentina</td>
                            </tr>
                            <tr>
                                <th class="rowDatosPersonales">Número telefónico: </th>
